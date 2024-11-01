@@ -1,0 +1,257 @@
+Name: ANAY ABHIJIT JOSHI
+Project 4: Big Data with PySpark using Anaconda & Jupyter notebook
+
+
+================================================================================================================================================================
+QUESTION 1
+================================================================================================================================================================
+Please see the attached file for all the required screenshots!
+
+
+================================================================================================================================================================
+QUESTION 2
+================================================================================================================================================================
+
+Successfully Downloaded: ./weather_data/2015_72429793812.csv !
+Successfully Downloaded: ./weather_data/2015_99495199999.csv !
+Successfully Downloaded: ./weather_data/2016_72429793812.csv !
+Successfully Downloaded: ./weather_data/2017_72429793812.csv !
+Successfully Downloaded: ./weather_data/2017_99495199999.csv !
+Successfully Downloaded: ./weather_data/2018_72429793812.csv !
+Successfully Downloaded: ./weather_data/2018_99495199999.csv !
+Successfully Downloaded: ./weather_data/2019_72429793812.csv !
+Successfully Downloaded: ./weather_data/2019_99495199999.csv !
+Successfully Downloaded: ./weather_data/2020_72429793812.csv !
+Successfully Downloaded: ./weather_data/2020_99495199999.csv !
+Successfully Downloaded: ./weather_data/2021_72429793812.csv !
+Successfully Downloaded: ./weather_data/2021_99495199999.csv !
+Successfully Downloaded: ./weather_data/2022_72429793812.csv !
+Successfully Downloaded: ./weather_data/2022_99495199999.csv !
+Successfully Downloaded: ./weather_data/2023_72429793812.csv !
+Successfully Downloaded: ./weather_data/2023_99495199999.csv !
+Successfully Downloaded: ./weather_data/2024_72429793812.csv !
+Successfully Downloaded: ./weather_data/2024_99495199999.csv !
+ 
+Cincinnati --> Year: 2015, Station: 72429793812, Count: 365
+Florida    --> Year: 2015, Station: 99495199999, Count: 355
+Cincinnati --> Year: 2016, Station: 72429793812, Count: 366
+Cincinnati --> Year: 2017, Station: 72429793812, Count: 365
+Florida    --> Year: 2017, Station: 99495199999, Count: 283
+Cincinnati --> Year: 2018, Station: 72429793812, Count: 365
+Florida    --> Year: 2018, Station: 99495199999, Count: 363
+Cincinnati --> Year: 2019, Station: 72429793812, Count: 365
+Florida    --> Year: 2019, Station: 99495199999, Count: 345
+Cincinnati --> Year: 2020, Station: 72429793812, Count: 366
+Florida    --> Year: 2020, Station: 99495199999, Count: 365
+Cincinnati --> Year: 2021, Station: 72429793812, Count: 365
+Florida    --> Year: 2021, Station: 99495199999, Count: 104
+Cincinnati --> Year: 2022, Station: 72429793812, Count: 365
+Florida    --> Year: 2022, Station: 99495199999, Count: 259
+Cincinnati --> Year: 2023, Station: 72429793812, Count: 365
+Florida    --> Year: 2023, Station: 99495199999, Count: 276
+Cincinnati --> Year: 2024, Station: 72429793812, Count: 301
+Florida    --> Year: 2024, Station: 99495199999, Count: 133
+
+Total Results: 19 (as expected)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+Cincinnati Data Count (Total Number of Rows): 3588
+Florida Data Count (Total Number of Rows)   : 2483
+
+
+================================================================================================================================================================
+QUESTION 3
+================================================================================================================================================================
+
+Hottest Days by Year (Cincinnati and Florida):
+
+ Year  |    Station   |                 Station Name                       |    Date      | Maximum Temperature
+-------|--------------|----------------------------------------------------|--------------|---------------------
+ 2015  | 72429793812  | CINCINNATI MUNICIPAL AIRPORT LUNKEN FIELD, OH US   |  2015-06-12  |    91.9
+ 2015  | 99495199999  | SEBASTIAN INLET STATE PARK, FL US                  |  2015-07-28  |    90.0
+
+
+ 2016  | 72429793812  | CINCINNATI MUNICIPAL AIRPORT LUNKEN FIELD, OH US   |  2016-07-24  |    93.9
+
+
+ 2017  | 72429793812  | CINCINNATI MUNICIPAL AIRPORT LUNKEN FIELD, OH US   |  2017-07-22  |    91.9
+ 2017  | 99495199999  | SEBASTIAN INLET STATE PARK, FL US                  |  2017-05-13  |    88.3
+
+
+ 2018  | 72429793812  | CINCINNATI MUNICIPAL AIRPORT LUNKEN FIELD, OH US   |  2018-07-04  |    96.1
+ 2018  | 99495199999  | SEBASTIAN INLET STATE PARK, FL US                  |  2018-09-15  |    90.1
+
+
+ 2019  | 72429793812  | CINCINNATI MUNICIPAL AIRPORT LUNKEN FIELD, OH US   |  2019-09-30  |    95.0
+ 2019  | 99495199999  | SEBASTIAN INLET STATE PARK, FL US                  |  2019-09-06  |    91.6
+
+
+ 2020  | 72429793812  | CINCINNATI MUNICIPAL AIRPORT LUNKEN FIELD, OH US   |  2020-07-05  |    93.9
+ 2020  | 99495199999  | SEBASTIAN INLET STATE PARK, FL US                  |  2020-04-13  |    91.8
+
+
+ 2021  | 72429793812  | CINCINNATI MUNICIPAL AIRPORT LUNKEN FIELD, OH US   |  2021-08-12  |    95.0
+ 2021  | 99495199999  | SEBASTIAN INLET STATE PARK, FL US                  |  2021-04-18  |    86.2
+
+
+ 2022  | 72429793812  | CINCINNATI MUNICIPAL AIRPORT LUNKEN FIELD, OH US   |  2022-06-14  |    96.1
+ 2022  | 99495199999  | SEBASTIAN INLET STATE PARK, FL US                  |  2022-05-06  |    89.6
+
+
+ 2023  | 72429793812  | CINCINNATI MUNICIPAL AIRPORT LUNKEN FIELD, OH US   |  2023-08-23  |    96.1
+ 2023  | 99495199999  | SEBASTIAN INLET STATE PARK, FL US                  |  2023-07-09  |    90.9
+
+
+ 2024  | 72429793812  | CINCINNATI MUNICIPAL AIRPORT LUNKEN FIELD, OH US   |  2024-08-30  |   100.9
+ 2024  | 99495199999  | SEBASTIAN INLET STATE PARK, FL US                  |  2024-05-14  |    86.7
+
+
+
+================================================================================================================================================================
+QUESTION 4
+================================================================================================================================================================
+
+One Coldest Day in March (2015-2024) from Cincinnati and Florida (both):
+
+ Year  |    Station   |                 Station Name                       |    Date      | Minimum Temperature
+-------|--------------|----------------------------------------------------|--------------|---------------------
+ 2015  | 72429793812  | CINCINNATI MUNICIPAL AIRPORT LUNKEN FIELD, OH US   |  2015-03-06  |     3.2
+
+
+ ---------------------------------------------------------------------------------------------------------------------------------------------------------------
+ (EXTRA)
+
+ Coldest Day in March (2015-2024) for Cincinnati and Florida (each):
+
+ Year  |    Station   |                 Station Name                       |    Date      | Minimum Temperature
+-------|--------------|----------------------------------------------------|--------------|---------------------
+ 2015  | 72429793812  | CINCINNATI MUNICIPAL AIRPORT LUNKEN FIELD, OH US   |  2015-03-06  |     3.2
+ 2022  | 99495199999  | SEBASTIAN INLET STATE PARK, FL US                  |  2022-03-13  |    45.5
+
+
+
+
+================================================================================================================================================================
+QUESTION 5
+================================================================================================================================================================
+
+Year with Most Precipitation for Cincinnati and Florida:
+
+ Year  |    Station   |                 Station Name                       | Mean PRCP
+-------|--------------|----------------------------------------------------|----------
+ 2024  | 72429793812  | CINCINNATI MUNICIPAL AIRPORT LUNKEN FIELD, OH US   | 5.44
+ 2020  | 99495199999  | SEBASTIAN INLET STATE PARK, FL US                  | 0.00
+
+
+
+================================================================================================================================================================
+QUESTION 6
+================================================================================================================================================================
+
+Percentage of Missing Values for Wind Gust (column GUST) for Cincinnati and Florida in 2024:
+
+Cincinnati: 39.53%
+Florida: 100.00%
+
+
+
+================================================================================================================================================================
+QUESTION 7
+================================================================================================================================================================
+
+Temperature Statistics for Cincinnati for Each Month in 2020:
+
++-----+------------------+----------------------+-----------+---------+
+|MONTH|Mean_TEMP         |StandardDeviation_TEMP|Median_TEMP|Mode_TEMP|
++-----+------------------+----------------------+-----------+---------+
+|1    |37.945161081129505|8.345810838316384     |37.7       |24.7     |
+|2    |36.58965525133856 |7.901597947537755     |36.0       |25.9     |
+|3    |49.0741934007214  |8.77940669347644      |47.8       |39.6     |
+|4    |51.77999992370606 |7.3131621276074465    |51.0       |49.4     |
+|5    |60.89032290058751 |9.314768319579512     |63.7       |73.9     |
+|6    |72.54666570027669 |4.8999458590264515    |73.7       |70.7     |
+|7    |77.6000001968876  |2.337947626620972     |77.9       |78.4     |
+|8    |73.34516143798828 |3.4878690606063563    |73.7       |78.3     |
+|9    |66.09999961853028 |7.118261579669542     |65.8       |74.5     |
+|10   |55.19354851015152 |6.7286914818367975    |54.0       |52.2     |
+|11   |48.00333340962728 |6.825938707865554     |47.7       |47.7     |
+|12   |35.99354830095845 |6.6427872766495755    |35.2       |32.1     |
++-----+------------------+----------------------+-----------+---------+
+
+
+
+================================================================================================================================================================
+QUESTION 8
+================================================================================================================================================================
+
+Top 10 Days with the Lowest Wind Chill for Cincinnati in 2017:
+
++------------------------------------------------+----------+----+----+-------------------+
+|NAME                                            |DATE      |TEMP|WDSP|Wind_Chill         |
++------------------------------------------------+----------+----+----+-------------------+
+|CINCINNATI MUNICIPAL AIRPORT LUNKEN FIELD, OH US|2017-01-07|10.5|7.0 |-0.4140156367932173|
+|CINCINNATI MUNICIPAL AIRPORT LUNKEN FIELD, OH US|2017-12-31|11.0|5.3 |2.0339764741541018 |
+|CINCINNATI MUNICIPAL AIRPORT LUNKEN FIELD, OH US|2017-12-27|13.0|5.8 |3.8206452986638073 |
+|CINCINNATI MUNICIPAL AIRPORT LUNKEN FIELD, OH US|2017-12-28|13.6|5.8 |4.533355513517824  |
+|CINCINNATI MUNICIPAL AIRPORT LUNKEN FIELD, OH US|2017-01-06|13.6|5.5 |4.868933492954463  |
+|CINCINNATI MUNICIPAL AIRPORT LUNKEN FIELD, OH US|2017-01-08|15.9|5.2 |7.929747979856229  |
+|CINCINNATI MUNICIPAL AIRPORT LUNKEN FIELD, OH US|2017-12-25|25.8|13.5|14.285112249501509 |
+|CINCINNATI MUNICIPAL AIRPORT LUNKEN FIELD, OH US|2017-12-30|21.6|5.3 |14.539211503699956 |
+|CINCINNATI MUNICIPAL AIRPORT LUNKEN FIELD, OH US|2017-01-05|22.2|5.8 |14.748862551376547 |
+|CINCINNATI MUNICIPAL AIRPORT LUNKEN FIELD, OH US|2017-12-26|23.3|6.2 |15.688977064714743 |
++------------------------------------------------+----------+----+----+-------------------+
+
+
+
+================================================================================================================================================================
+QUESTION 9
+================================================================================================================================================================
+
+Number of Days with Extreme Weather Conditions in Florida in 2024: 0
+
+ ---------------------------------------------------------------------------------------------------------------------------------------------------------------
+ (EXTRA)
+
+ Number of Days with Extreme Weather Conditions in Florida for all years from 2015 to 2024: 0
+
+
+
+================================================================================================================================================================
+QUESTION 10
+================================================================================================================================================================
+
+Cincinnati's Maximum Temperature for November 2022                                     : 75.90°F
+Cincinnati's Maximum Temperature for November 2023                                     : 80.10°F
+Cincinnati's Predicted Maximum Temperature for November 2024                           : 78.00°F
+
+Highest Maximum Temperature for December 2022 (ignoring the MISSING VALUES=9999.9)     : 66.00°F
+Cincinnati's Maximum Temperature for December 2023                                     : 64.00°F
+Cincinnati's Predicted Maximum Temperature for December 2024                           : 65.00°F
+
+
+ ---------------------------------------------------------------------------------------------------------------------------------------------------------------
+ (EXPLANATION)
+
+ QUESTION 10 (Brief Discussion on the model’s performance and potential improvements)
+
+        In my approach, I focused on predicting Cincinnati's maximum temperatures for November and December 2024 by looking at data
+ from the previous two years (i.e., 2022's and 2023's November and December). I filtered out erroneous values, specifically those
+ marked as 9999.9, which often indicate missing data, and then calculated the average of the highest valid temperatures from each
+ month to estimate the 2024's Maximum Temperatures for the month of November and December in Cincinnati.
+        Now, one might be wondering - "Why I decided/chose to ignore those missing values?", this is because, 9999.9 value(s) represent
+ missing or invalid data and including them could have skewed the results. Replacing them with a mean/average temperature of that particular
+ month of that specific year would artificially alter the dataset and could misrepresent extreme temperature trends, so skipping these values
+ gives a more accurate prediction.
+       In my opinion, this averaging method provides a reasonable estimate, but it doesn’t capture yearly trends or account for other possible
+ influences like humidity or precipitation. Here’s how I think the model could be improved in future, if needed:
+       1. Exploring a Time-Series Model (like ARIMA, Prophet or LSTM, etc.): These Deep Learning architectures/models are designed to handle seasonal
+                                                                             variations, which would likely make the predictions more accurate. I would
+                                                                             use Mean Square Error (MSE) as my Loss Function because the data is of
+                                                                             "Regression" type and not "Classification" type.
+       2. Incorporating Additional Weather Features: Including other factors could better capture the dependencies that affect maximum temperatures.
+
+       Finally, in summary, I can definitely say that the current approach works as a quick estimation for predicting the Maximum Temperature for Cincinnati (accurately) for
+ November and December 2024, based on the previous 2 years of weather data (i.e., 2022 and 2023), using a time-series model would likely give me a better, more nuanced
+ prediction by recognizing patterns in the data.
+
+
